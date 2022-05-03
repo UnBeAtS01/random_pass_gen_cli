@@ -1,6 +1,6 @@
 {
   "name": "random_pass_gen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "random password generator",
   "main": "index.js",
   "author": {
@@ -24,6 +24,11 @@
   "dependencies": {
     "cli-table": "^0.3.11",
     "cli-welcome": "^2.2.2",
-    "clipboardy": "^2.3.0"
-  }
+    "clipboardy": "^2.3.0",
+    "user": "0.0.0"
+  },
+  "keywords": [
+    "password generate",
+    "random password"
+  ]
 }
