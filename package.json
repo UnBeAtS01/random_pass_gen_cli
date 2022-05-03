@@ -1,6 +1,6 @@
 {
   "name": "random_pass_gen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "random password generator",
   "main": "index.js",
   "author": {

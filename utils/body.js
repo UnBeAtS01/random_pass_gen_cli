@@ -1,7 +1,8 @@
 const clipboards = require('clipboardy');
 
-module.exports = async () => {
+module.exports = async (alphaonly = false) => {
     let characters = "ABCDEFGHIJKLMNOPQRSTWXYZ!@#$%^&*12345678011223344556677889910abcdefghijklmnopqrstuvwxyz";
+    if (alphaonly) characters = "ABCDEFGHIJKLMNOPQRSTWXYZ!@#$%^&*abcdefghijklmnopqrstuvwxyz";
     let charlen = characters.length;
     let str = "";
     for (let i = 0; i < 15; i++) {
